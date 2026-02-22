@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srijan Nepal | Personal Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1a73e8, #1558b0);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        nav {
+            background: white;
+            padding: 15px 20px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            color: #0d47a1;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #1558b0;
+            font-size: 2rem;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        @media(max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            nav a { margin: 0 10px; font-size: 0.9rem; }
+            .card { padding: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Profile Photo" style="width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid white;">
+        <h1>Srijan Nepal</h1>
+        <p>Business Management Student | Operations | Teamwork | Customer Service</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>I am a motivated BSc Business Management student at the University of Roehampton with experience in accounting and hospitality services. In my current role as a Breakfast Chef in London, I demonstrate leadership, effective time management, and operational proficiency in a fast-paced environment. I possess strong analytical and organizational skills and maintain a keen interest in business processes and finance.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <div class="card">
+            <h3>Breakfast Chef — Chai and Chapti, London, UK</h3>
+            <p><strong>October 2024 – Present</strong></p>
+            <ul>
+                <li>Efficiently prepare and present breakfast dishes in a high-volume environment.</li>
+                <li>Manage morning kitchen operations ensuring timely service delivery.</li>
+                <li>Maintain strict food hygiene and health & safety standards.</li>
+                <li>Coordinate with front of house staff for smooth customer service.</li>
+                <li>Support cost control through portion management and waste reduction.</li>
+                <li>Monitor stock levels and assist with inventory control.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Junior Accountant — Kathmandu, Nepal</h3>
+            <p><strong>December 2023 – August 2024</strong></p>
+            <ul>
+                <li>Maintained financial records and entered daily transactions.</li>
+                <li>Prepared invoices, payment vouchers, and expense reports.</li>
+                <li>Assisted with bank reconciliation and bookkeeping.</li>
+                <li>Supported the creation of financial statements.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>BSc Business Management — University of Roehampton</h3>
+            <p><strong>2024 – 2027</strong></p>
+            <p>Relevant Modules:</p>
+            <ul>
+                <li>Introduction to Management</li>
+                <li>Organizational Behaviour</li>
+                <li>Marketing Principles</li>
+                <li>Business Data Analysis</li>
+                <li>Global Business Management</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <ul>
+                <li>Operations Management</li>
+                <li>Basic Accounting & Bookkeeping</li>
+                <li>Inventory & Stock Control</li>
+                <li>Microsoft Excel, Word & PowerPoint</li>
+                <li>Teamwork & Leadership</li>
+                <li>Time Management</li>
+                <li>Customer Service</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <form action="https://formspree.io/f/maylkgny" method="POST">
+                <label>Your Name:</label><br>
+                <input type="text" name="name" required style="width:100%;padding:8px;margin:6px 0;"><br>
+                <label>Your Email:</label><br>
+                <input type="email" name="email" required style="width:100%;padding:8px;margin:6px 0;"><br>
+                <label>Your Message:</label><br>
+                <textarea name="message" rows="5" required style="width:100%;padding:8px;margin:6px 0;"></textarea><br>
+                <button type="submit" style="background:#1a73e8;color:white;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;">Send Message</button>
+            </form>
+            <p style="margin-top:20px;">Email: srijannepal0@email.com</p>
+            <p>Phone: +44 7438 821261</p>
+            <p>Instagram: <a href="https://instagram.com/majesticlikehimalayas/" target="_blank">@majesticlikehimalayas</a></p>
+            <p><a href="Srijan_CV.pdf" download style="color:#1a73e8;font-weight:bold;">Download My CV</a></p>
+        </div>
+    </section>
+
+    <footer style="background: #1558b0;color:white;text-align:center;padding:25px;margin-top:40px;font-size:0.9rem;">
+        <p>© 2025 Srijan Nepal — Professional Portfolio Website</p>
+        <p>Built with ❤️ using HTML & CSS</p>
+    </footer>
+</body>
+</html>
